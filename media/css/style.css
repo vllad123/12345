@@ -7,7 +7,7 @@ body {
 
 #header {
     height: 200px;
-    background: brown;
+    background: #0062cc;
 }
 
 #logo {
@@ -53,7 +53,7 @@ body {
     padding-bottom: 10px;
     border-right: 1px crimson;
     text-decoration: darkorchid;
-    background: darkgreen;
+    background: #1d2124;
 
 }
 
