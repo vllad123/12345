@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #533f03;
+}
+
+
+#header {
+    height: 200px;
+    background: brown;
+}
+
+#logo {
+    float: left;
+    margin-left: 25px;
+    padding-top: 25px;
+}
+
+#logotext {
+    margin-right: 25px;
+    padding-top: 25px;
+    float: right;
+    color: greenyellow;
+    text-shadow: 1px 1px 1px darkgreen;
+    font-family: "Arial Black";
+
+}
+
+#reg {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+#reg a {
+    color: aqua;
+
+}
+
+#reg a:hover {
+    color: gold;
+}
+
+#menutop {
+    display: flex;
+
+}
+
+#menutop a {
+    flex: 1;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-right: 1px crimson;
+    text-decoration: darkorchid;
+    background: darkgreen;
+
+}
+
+#menutop a:hover {
+    background: darkblue;
+    color: firebrick;
+
+}
+
+.mytext {
+    background: darkgoldenrod;
+    padding-bottom: 10px;
+
+}
+#foot{
+    padding:10px;
+    color: blue;
+    text-align: center;
+}
+#foot a{
+    text-decoration: #6f42c1;
+}
