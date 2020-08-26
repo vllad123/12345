@@ -7,6 +7,8 @@
     <title>Сайт президента мира</title>
     <link rel="stylesheet" type="text/css" href="media/bootstrap-4.5.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="media/css/style.css"/>
+    <link rel="stylesheet"  href="media/css/video.css"/>
+    <script src="media/js/video.js"></script>
 
 </head>
 <body>
@@ -41,5 +43,26 @@
         2013-2020 <a href="#">wggwg</a>
     </footer>
 </div>
+
+
+<section id="player">
+    <video id="media" width="720" height="400">
+        <source src="media/trailer_12860.mp4">
+    </video>
+    <nav>
+        <div id="buttons">
+            <input type="button" id="play" value="Play">
+            <input type="button" id="mute" value="Mute">
+        </div>
+        <div id="bar">
+            <div id="progress"></div>
+        </div>
+        <div id="control">
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="0.6">
+        </div>
+        <div class="clear"></div>
+    </nav>
+</section>
+
 </body>
 </html>
